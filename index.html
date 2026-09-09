@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Daniel Fernández Román</title>
-  <meta name="description" content="Oceanography & biogeochemistry — diazotrophy in the Rías Baixas.">
+  <title>Daniel Fernández Román — Oceanography</title>
+  <meta name="description" content="PhD candidate at CIM-UVIGO working on marine nitrogen fixation and biogeochemistry in coastal upwelling systems.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <meta property="og:title" content="Daniel Fernández Román">
-  <meta property="og:description" content="PhD researcher on diazotrophy & coastal biogeochemistry.">
+  <meta property="og:description" content="PhD candidate researching nitrogen fixation and coastal biogeochemistry.">
   <meta property="og:url" content="https://daniel-fernandez-roman.github.io/">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
@@ -20,11 +20,9 @@
     "@type":"Person",
     "name":"Daniel Fernández Román",
     "url":"https://daniel-fernandez-roman.github.io/",
-    "sameAs":[
-      "https://github.com/daniel-fernandez-roman"
-    ],
-    "jobTitle":"PhD Researcher",
-    "affiliation":"URV"
+    "sameAs":["https://github.com/daniel-fernandez-roman"],
+    "jobTitle":"PhD Candidate",
+    "affiliation":"CIM-UVIGO (Universidade de Vigo)"
   }
   </script>
 </head>
@@ -32,61 +30,96 @@
   <header class="site-header">
     <nav class="container">
       <a class="brand" href="/">Daniel F. Román</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
       <ul class="nav">
-        <li><a href="#about">About</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="/" aria-current="page">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="container">
+  <main>
     <section class="hero">
-      <h1>Hello! I’m Daniel 👋</h1>
-      <p>PhD researcher working on diazotrophy and coastal biogeochemistry in the Rías Baixas.</p>
-      <p>
-        <a class="btn" href="#publications">See publications</a>
-        <a class="btn ghost" href="#contact">Contact</a>
-      </p>
+      <div class="container">
+        <span class="eyebrow">PhD Candidate · CIM-UVIGO</span>
+        <h1>Hi, I'm Daniel 👋</h1>
+        <p class="lede">I study biological nitrogen fixation and biogeochemical cycles in coastal upwelling
+          systems, with a focus on the Rías Baixas (NW Spain). I work with the Biological Oceanography
+          Group at CIM-UVIGO, combining fieldwork, incubation experiments and data analysis.</p>
+        <p class="hero-actions">
+          <a class="btn" href="publications.html">See publications</a>
+          <a class="btn ghost" href="contact.html">Get in touch</a>
+        </p>
+      </div>
     </section>
 
-    <section id="about">
-      <h2>About</h2>
-      <p>I study nitrogen fixation dynamics and their role in coastal productivity. I enjoy fieldwork,
-        data analysis, and communicating ocean science.</p>
+    <section id="news">
+      <div class="container">
+        <h2>News</h2>
+        <p class="section-intro">Recent updates on my research.</p>
+        <ul class="timeline">
+          <li>
+            <span class="when">Feb 2025</span>
+            <p class="what">New paper in <em>ISME Communications</em> on the ecological niche of nitrogen
+              fixers in coastal upwelling systems.</p>
+            <p class="where"><a href="https://doi.org/10.1093/ismeco/ycaf018">Read the paper →</a></p>
+          </li>
+          <li>
+            <span class="when">Sep 2024</span>
+            <p class="what">Presented "Rapid response of diazotrophs to hydrography changes in an
+              upwelling bay" at the IX International Symposium of Marine Sciences, Valencia.</p>
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <section id="research">
-      <h2>Research</h2>
-      <ul>
-        <li>Diazotrophy in upwelling systems (Rías Baixas)</li>
-        <li>Biogeochemical cycles & coastal oceanography</li>
-        <li>High-resolution time series & quality processes (URV)</li>
-      </ul>
-    </section>
-
-    <section id="publications">
-      <h2>Publications</h2>
-      <ul>
-        <li>Upcoming: manuscript for <em>JGR: Oceans</em>.</li>
-      </ul>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        Email: <a href="mailto:you@example.com">you@example.com</a><br>
-        GitHub: <a href="https://github.com/daniel-fernandez-roman">daniel-fernandez-roman</a>
-      </p>
+    <section id="research-teaser">
+      <div class="container">
+        <h2>Research lines</h2>
+        <p class="section-intro">A quick look — full details on the <a href="research.html">research page</a>.</p>
+        <div class="grid cols-3">
+          <a class="card-link" href="research.html">
+            <div class="card">
+              <h3>Diazotrophy</h3>
+              <p>Nitrogen fixation dynamics and diazotroph community ecology in coastal waters.</p>
+            </div>
+          </a>
+          <a class="card-link" href="research.html">
+            <div class="card">
+              <h3>Coastal upwelling</h3>
+              <p>Biogeochemical cycling and productivity in the Rías Baixas upwelling system.</p>
+            </div>
+          </a>
+          <a class="card-link" href="research.html">
+            <div class="card">
+              <h3>Data &amp; time series</h3>
+              <p>High-resolution oceanographic time series, quality control and numerical analysis.</p>
+            </div>
+          </a>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
       <small>© <span id="y"></span> Daniel Fernández Román</small>
+      <span class="social-links">
+        <a href="https://github.com/daniel-fernandez-roman" aria-label="GitHub" title="GitHub">
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+          0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+          1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+          0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0
+          1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15
+          0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01
+          8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+        </a>
+      </span>
     </div>
   </footer>
-  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  <script src="assets/main.js"></script>
 </body>
 </html>
