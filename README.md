@@ -26,7 +26,7 @@ serves it directly (`.nojekyll` disables Jekyll processing).
 A few placeholders were left on purpose (shown in *italics* on the site) —
 search the HTML for `TODO` / `class="placeholder"` to find them all:
 
-- **contact.html** — real email address, Google Scholar link, ORCID iD
+- **contact.html** — Google Scholar link, ORCID iD
 - **cv.html** — education entries (BSc/MSc), earlier experience, link to a PDF CV
 - **publications.html** — Google Scholar / ORCID links, any manuscript in progress
 
